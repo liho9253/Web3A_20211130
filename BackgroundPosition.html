@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#myDIV {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url('cat2.jpg');
+    background-position: right left;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  0% {background-position: left;}
+  50% {background-position: right;}
+  100% {background-position: left;}
+}
+</style>
+</head>
+<body>
+
+<h1>Animation of background-position</h1>
+
+<div id="myDIV"></div>
+
+</body>
+</html>
